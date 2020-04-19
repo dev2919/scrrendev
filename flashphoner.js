@@ -10754,7 +10754,7 @@ var createSession = function createSession(options) {
 
 
   function createWS(url) {
-    wsConnection = new WebSocket('ws://screensgare.netlify.app:443/chart');
+    wsConnection = new WebSocket(url);
 
     if (timeout != undefined && timeout > 0) {
       connectionTimeout = setTimeout(function () {
