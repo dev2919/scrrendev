@@ -73,10 +73,11 @@ function init_page() {
         $('#chromeExtension').remove();
     }
 }
+
 function onExtensionAvailable() {
     localVideo = document.getElementById("localVideo");
     remoteVideo = document.getElementById("remoteVideo");
-    $("#url").val("ws://screensgare.netlify.app:443/chart");
+    $("#url").val(setURL() + "/" + createUUID(8));
     onStopped();
 }
 
