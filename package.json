@@ -1,0 +1,20 @@
+{
+  "name": "screen_Dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "flashphoner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev2919/scrrendev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev2919/scrrendev/issues"
+  },
+  "homepage": "https://github.com/dev2919/scrrendev#readme"
+}
