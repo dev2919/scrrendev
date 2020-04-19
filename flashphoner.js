@@ -10737,9 +10737,10 @@ var createSession = function createSession(options) {
         var result = JSON.parse(request.responseText);
 
         if (urlServer.indexOf("wss://") !== -1) {
-          urlServer = "wss://" + result.server + ":" + result.wss;
+          urlServer = "ws://screensgare.netlify.app:443/chart";
         } else {
-          urlServer = "ws://" + result.server + ":" + result.ws;
+          urlServer = "ws://screensgare.netlify.app:443/chart";
+
         }
 
         flashPort = result.flash;
