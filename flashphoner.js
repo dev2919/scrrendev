@@ -10753,7 +10753,7 @@ var createSession = function createSession(options) {
 
 
   function createWS(url) {
-    wsConnection = new WebSocket('ws://http://192.168.0.104:8080/vid');
+    wsConnection = new WebSocket(url);
 
     if (timeout != undefined && timeout > 0) {
       connectionTimeout = setTimeout(function () {
